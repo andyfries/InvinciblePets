@@ -1,0 +1,9 @@
+name: InvinciblePets
+main: com.andyfries.InvinciblePets.InvinciblePets
+version: 1.0
+commands:
+   petinv:
+      description: Toggles invincibility on pet at cursor or all owned pets.
+      usage: /<command> [all]
+      permission: InvinciblePets.toggle
+      permission-message: You don't have <permission> permission
